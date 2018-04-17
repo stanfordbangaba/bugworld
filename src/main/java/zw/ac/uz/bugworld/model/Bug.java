@@ -2,12 +2,11 @@ package zw.ac.uz.bugworld.model;
 
 import zw.ac.uz.bugworld.enums.BugColor;
 import zw.ac.uz.bugworld.enums.CellItemType;
-import zw.ac.uz.bugworld.iface.BugSpecies;
 import zw.ac.uz.bugworld.iface.CellItem;
 
 import java.util.Set;
 
-public class Bug implements BugSpecies, CellItem {
+public class Bug implements CellItem {
     private int identity;
     private int state;
     private int brainState;
