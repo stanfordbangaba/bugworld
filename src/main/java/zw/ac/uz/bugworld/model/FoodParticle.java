@@ -5,7 +5,6 @@ import zw.ac.uz.bugworld.iface.CellItem;
 
 public class FoodParticle implements CellItem {
 
-    private Bug bug;
     private boolean carried;
 
     public boolean isCarried() {
